@@ -95,6 +95,7 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+	margin-bottom: 10px;
 }
 
 .content-section-b {
@@ -102,10 +103,21 @@ h6 {
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 	background-color: #ffffff;
+	margin-bottom: 10px;
 }
 
 .content-section-c {
-	padding: 50px;
+	padding: 50px 0;
+	background-color: #f8f8f8;
+	margin-bottom: 10px;
+}
+
+.heading-item {
+	margin-bottom: 50px;
+}
+
+.row {
+	margin-bottom: 10px;
 }
 
 .about{
@@ -126,6 +138,7 @@ h6 {
 .skill-item {
 	
 }
+
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
