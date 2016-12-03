@@ -16,7 +16,7 @@ $(function () {
 });
 
 // Highlight the top nav as scrolling occurs (doesn't work)
-$(document).ready(function(){
+/*$(document).ready(function(){
 	$('body').scrollspy({target: '#myScrollspy', offset:50});
-});
+});*/
 
