@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+.body{
+    position: relative;
+}
+
 .topnav {
     font-size: 14px; 
 }
@@ -191,6 +195,8 @@ h6 {
 	font-size: 17px;
 	font-weight: 500;
 	line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .section-heading {
@@ -204,7 +210,11 @@ h6 {
 }
 
 .skill-item {
-	
+	margin-bottom: 30px;
+}
+
+.subHeading-item {
+    margin-bottom: 15px;
 }
 
 .banner {
