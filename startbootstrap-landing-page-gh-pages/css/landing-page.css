@@ -213,6 +213,13 @@ h6 {
 	margin-bottom: 30px;
 }
 
+.quote-item {
+    font-family: "Droid Serif", "Helvetica Neue", Arial, sans-serif; 
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
 .subHeading-item {
     margin-bottom: 15px;
 }
