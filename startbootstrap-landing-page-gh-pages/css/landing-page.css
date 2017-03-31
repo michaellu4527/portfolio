@@ -47,6 +47,18 @@ h6 {
     color: #CCDBFF;
 }
 
+.navbar-inverse .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #222222;
+    background-color: #CCDBFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+    border-radius: 3px;
+    color: #222222;
+    background-color: #b3c9ff;
+}
+
 .navbar-inner {
     min-height: 0px;
 }
@@ -62,8 +74,13 @@ h6 {
     font-size: 14px;
 }
 
-.navbar-inverse .navbar-nav>.active>a {
+.navbar-inverse .nav li a:hover {
     border-radius: 3px;
+    color: #CCDBFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    border-radius: 5px;
 }
 
 .navbar-inverse .nav li a {
