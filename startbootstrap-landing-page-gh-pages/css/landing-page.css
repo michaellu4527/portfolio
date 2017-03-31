@@ -38,6 +38,41 @@ h6 {
     background: #f55;
 }
 
+.navbar-inverse .navbar-brand {
+    font-family: "KaushanScriptRegular","Helvetica Neue",Helvetica,Arial,cursive;
+    float: left;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #CCDBFF;
+}
+
+.navbar-inner {
+    min-height: 0px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 65px;
+    height: 65px;
+    padding-top: 0;
+}
+
+.page-scroll{
+    font-size: 14px;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    border-radius: 3px;
+}
+
+.navbar-inverse .nav li a {
+    text-transform: uppercase;
+    float: right;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
