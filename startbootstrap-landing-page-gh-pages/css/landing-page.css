@@ -35,7 +35,7 @@ h6 {
 }
 
 .nav li.active a{
-    background: #f55;
+    background: #b3c9ff;
 }
 
 .navbar-inverse .navbar-brand {
@@ -61,6 +61,15 @@ h6 {
 
 .navbar-inner {
     min-height: 0px;
+}
+
+.navbar-inverse .navbar-pills>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav>li>a {
+    display: block;
 }
 
 .navbar-brand,
