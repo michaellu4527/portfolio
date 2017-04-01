@@ -35,7 +35,7 @@ h6 {
 }
 
 .nav li.active a{
-    background: #b3c9ff;
+    background: #99b8ff;
 }
 
 .navbar-inverse .navbar-brand {
@@ -48,15 +48,21 @@ h6 {
 }
 
 .navbar-inverse .navbar-nav>.active>a {
-    border-radius: 0;
+    border-radius: 5px;
+    color: #222222;
+    background-color: #CCDBFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus {
+    border-radius: 5px;
     color: #222222;
     background-color: #CCDBFF;
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover {
-    border-radius: 3px;
+    border-radius: 5px;
     color: #222222;
-    background-color: #b3c9ff;
+    background-color: #99b8ff;
 }
 
 .navbar-inner {
@@ -84,7 +90,7 @@ h6 {
 }
 
 .navbar-inverse .nav li a:hover {
-    border-radius: 3px;
+    border-radius: 5px;
     color: #CCDBFF;
 }
 
