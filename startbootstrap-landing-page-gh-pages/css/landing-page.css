@@ -160,6 +160,22 @@ h6 {
     }
 }
 
+.closeButton {
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.modal-header {
+    padding-top: 50px;
+}
+
+.modal-header .close {
+    font-size: 80px;
+    font-weight: 100;
+}
+
 .skillsModal {
     padding: 50px 30px;
 }
@@ -224,7 +240,7 @@ h6 {
 }
 
 .portfolio-item h4 {
-    padding: 5px 0;
+    padding: 8px 0;
 }
 
 .portfolio-link:hover{
@@ -246,7 +262,7 @@ h6 {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 16px;
+    left: 22px;
     right: 0;
     height: 275px;
     width: 345px;
@@ -266,6 +282,7 @@ h6 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+
 .portfolio-hover img:hover{
     transition: all ease 0.8s;
 /*	-webkit-filter: grayscale(55%);*/
