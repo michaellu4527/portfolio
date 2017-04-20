@@ -228,8 +228,6 @@ h6 {
 }
 
 .portfolio-link:hover{
-	width: 80%;
-	height: 80%
 	opacity: 0;
 	/*background-color: #f7f7f7;*/
     background-color: #ADC1FF;
@@ -244,6 +242,30 @@ h6 {
 	transition: all 0.8s ease;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 16px;
+    right: 0;
+    height: 275px;
+    width: 345px;
+    opacity: 0;
+    transition: .8s ease;
+    background-color: #7FA3FF;  
+}
+
+.portfolio-hover:hover .overlay {
+    opacity: 0.8;
+}
+
+.overlay .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 .portfolio-hover img:hover{
     transition: all ease 0.8s;
 /*	-webkit-filter: grayscale(55%);*/
