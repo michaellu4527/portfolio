@@ -208,9 +208,11 @@ h6 {
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 55px;
     border: 0;
-	/*background-color: #9BB4FF;*/
     background-color: #ADC1FF;
 	margin-bottom: 0px;
 }
@@ -221,11 +223,16 @@ h6 {
 	margin-bottom: 0px;
 }
 
-.portfolio-link :hover{
+.portfolio-item h4 {
+    padding: 5px 0;
+}
+
+.portfolio-link:hover{
 	width: 80%;
 	height: 80%
 	opacity: 0;
-	background-color: #f7f7f7;
+	/*background-color: #f7f7f7;*/
+    background-color: #ADC1FF;
 	transition: all ease 0.5s;
 }
 
@@ -237,10 +244,10 @@ h6 {
 	transition: all 0.8s ease;
 }
 
-.portfolio-hover:hover{
-	width: 100%;
-	height: 100%;
-	-webkit-filter: grayscale(95%);
+.portfolio-hover img:hover{
+    transition: all ease 0.8s;
+/*	-webkit-filter: grayscale(55%);*/
+    background-color: #7FA3FF;
 }
 
 .portfolio-caption {
@@ -272,7 +279,10 @@ h6 {
 
 .about{
 	color: #777777;
-	margin-bottom: 10px;
+	padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+
 }
 
 .about p{
