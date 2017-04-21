@@ -268,10 +268,10 @@ h6 {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 22px;
+    left: 70px;
     right: 0;
-    height: 275px;
-    width: 345px;
+    height: 250px;
+    width: 250px;
     opacity: 0;
     transition: .8s ease;
     background-color: #7FA3FF;  
@@ -421,8 +421,8 @@ h6 {
 }
 
 @media(max-width:767px){
-  .content-section-b {
-    padding-left: 7px;
+  .content-section-b{
+    padding-left: 20px;
     text-align: center;
   }
 }
