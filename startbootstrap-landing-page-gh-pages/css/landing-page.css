@@ -402,8 +402,17 @@ h6 {
     padding-bottom: 50px;
 }
 
+h3.section-subheading {
+    padding-bottom: 50px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
 .social-buttons {
-    padding-bottom: 30px;
+    padding-bottom: 0;
 }
 
 @media(max-width:1199px) {
@@ -484,6 +493,9 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
+ul.social-buttons li a:hover {
+    
+}
 
 p.copyright {
     margin: 15px 0 0;
