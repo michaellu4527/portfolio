@@ -327,6 +327,18 @@ h6 {
 	margin-bottom: 10px;
 }
 
+.resume {
+    text-align: center;
+}
+
+.resume a {
+    color: #004d99;
+}
+
+.resume a:hover {
+    color: #004d99;
+}
+
 .about{
 	color: #777777;
 	padding-bottom: 50px;
@@ -345,7 +357,7 @@ h6 {
 .about a {
     padding-top: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
 	font-weight: 500;
 	line-height: 50px;
 }
@@ -377,7 +389,7 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
+    padding: 150px 0;
     color: #f8f8f8;
     background: url(../img/portland-footer.png) no-repeat center center;
     background-size: cover;
@@ -515,7 +527,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:hover {
-    
+    background-color: #3593ff;
 }
 
 p.copyright {
