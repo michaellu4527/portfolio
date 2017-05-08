@@ -432,7 +432,7 @@ h3.section-subheading {
     padding-bottom: 50px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 400;
 }
@@ -515,7 +515,9 @@ a:hover, a:focus, a:active {
 
 footer {
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: #ADC1FF;
     text-align: center;
 }
@@ -547,16 +549,9 @@ ul.social-buttons li a:hover {
     background-color: #3593ff;
 }
 
-.wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
 .wrapper ul.social-buttons {
-    text-align: center;
-    width: 100%;
+    position: relative;
+    left: 107%;
 }
 
 p.copyright {
