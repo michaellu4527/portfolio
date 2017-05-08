@@ -549,9 +549,25 @@ ul.social-buttons li a:hover {
     background-color: #3593ff;
 }
 
-.wrapper ul.social-buttons {
-    position: relative;
-    left: 107%;
+@media(min-width:991px){
+    .wrapper ul.social-buttons {
+        position: relative;
+        left: 107%;
+    }
+}
+
+@media(min-width:768px){
+    .wrapper ul.social-buttons {
+        position: relative;
+        right: 5%;
+    }
+}
+
+@media(min-width:768px){
+    .wrapper ul.social-buttons {
+        position: relative;
+        right: 3%;
+    }
 }
 
 p.copyright {
