@@ -340,11 +340,15 @@ h6 {
 }
 
 .resume a {
-    color: #004d99;
+    color: #005ab3;
 }
 
 .resume a:hover {
-    color: #004d99;
+    color: #003366;
+}
+
+.resume a:visited {
+    color: #003366;
 }
 
 .about{
