@@ -192,6 +192,14 @@ h6 {
     color: #fff;
 }
 
+.modal-body a {
+    color: #004d99;
+}
+
+.modal-body a:hover {
+    color: #004d99;
+}
+
 .summaryBody{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -502,13 +510,14 @@ a:hover, a:focus, a:active {
 }
 
 footer {
-    padding: 30px 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
     background-color: #ADC1FF;
     text-align: center;
 }
 
 footer .row {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .list-inline {
@@ -532,6 +541,18 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:hover {
     background-color: #3593ff;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wrapper ul.social-buttons {
+    text-align: center;
+    width: 100%;
 }
 
 p.copyright {
