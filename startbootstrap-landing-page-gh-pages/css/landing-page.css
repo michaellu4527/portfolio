@@ -388,6 +388,14 @@ h6 {
 	margin-bottom: 30px;
 }
 
+.skill-item .img {
+    height: auto;
+}
+
+.skill-item .img .web {
+    height: 200px;
+}
+
 .quote-item {
     font-family: "Droid Serif", "Helvetica Neue", Arial, sans-serif; 
     font-size: 18px;
